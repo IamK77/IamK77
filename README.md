@@ -1,27 +1,16 @@
-# IamK77
+<h3 align="center">IamK77</h3>
 
-I build agent runtimes and developer tools, with a focus on execution, coordination, and inspectable history.
+<p align="center">Building agent runtimes and developer tools.</p>
 
-## Selected projects
+---
 
-### [Lattice](https://github.com/IamK77/Lattice)
+### Selected projects
 
-A composable agent runtime for the terminal, built in Rust. Models, tools, policies, and agent loops are replaceable components; an append-only causal ledger records events before delivery.
+**[Lattice](https://github.com/IamK77/Lattice)** · Rust  
+A composable runtime for terminal agents, with replaceable components and inspectable execution history.
 
-Use it as a coding agent, or reshape the runtime around your own workflow.
+**[Skill](https://github.com/IamK77/Skill)** · TypeScript  
+Execution workflows, creative thinking lenses, and a CLI for recording progress and verification.
 
-[Get started](https://github.com/IamK77/Lattice/blob/main/docs/getting-started.md)
-
-### [Skill](https://github.com/IamK77/Skill)
-
-Execution workflows and creative thinking lenses for engineering, research, and design. SOPs provide concrete steps and verification; heuristics support open-ended exploration without mandatory gates.
-
-A companion TypeScript checklist CLI records run progress, evidence, and verification results.
-
-[Explore the suites](https://github.com/IamK77/Skill#suites)
-
-### [Cascade](https://github.com/IamK77/Cascade)
-
-A Python toolkit for coordinating agents through dynamic task graphs. Tasks carry explicit contracts, and upstream context retains its source rather than being merged into an undifferentiated summary.
-
-[Quick start](https://github.com/IamK77/Cascade#quick-start)
+**[Cascade](https://github.com/IamK77/Cascade)** · Python  
+Multi-agent coordination through dynamic task graphs, explicit contracts, and attributed context.
